@@ -54,7 +54,7 @@ function About() {
 
             {/* My Life */}
           <div className="flex justify-between flex-col md:flex-row mt-12">
-            <div className="md:w-2/4 md:ml-32 text-sm md:text-base lg:text-lg xl:text-xl mt-6 md:mt-0 ml-10 mr-10 md:mr-32 text-left">
+            <div className="md:w-4/5 md:ml-32 text-sm md:text-base lg:text-lg xl:text-xl mt-6 md:mt-0 ml-10 mr-10 md:mr-32 text-left">
               <h1 className="text-5xl font-semibold">My Life</h1>
               <p className="mt-4 md:mt-5">
                 I’ve always loved technology. From a young age, technology has
@@ -73,7 +73,7 @@ function About() {
             </div>
             <div className="md:mr-8">
               <img
-                className="rounded-3xl md:w-full md:mr-10 mt-5 ml-10 mr-10"
+                className="rounded-3xl md:w-full md:mr-96 md:pr-28 mt-5 mr-10 ml-10"
                 src="https://www.datocms-assets.com/38195/1607120988-about-1.png?fm=webp"
                 alt=""
               />
