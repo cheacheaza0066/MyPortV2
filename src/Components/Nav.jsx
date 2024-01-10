@@ -25,7 +25,7 @@ function Nav() {
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
           <BookOpenIcon className="w-7 h-7 text-white" />
-          <span className="text-white">Inscribe</span>
+          <span className="text-white">THANIN</span>
         </div>
         {/* Menu icon */}
         <div
