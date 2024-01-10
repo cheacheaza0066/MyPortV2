@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 import PicMylife from "../assets/Pic.png";
 function About() {
@@ -82,6 +83,8 @@ function About() {
           </div>
         </div>
       </div>
+
+      <Footer/>
     </>
   );
 }
