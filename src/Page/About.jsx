@@ -1,5 +1,5 @@
 import Nav from "../Components/Nav";
-
+import PicMylife from "../assets/Pic.png";
 function About() {
   const textStyle = {
     fontFamily: "Lemon, serif",
@@ -20,7 +20,6 @@ function About() {
           <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black">
             I’m Thanin Pitakpoolsin
           </p>
-
 
           {/* About me */}
           <div className="flex flex-col md:flex-row justify-between items-center mt-48">
@@ -50,33 +49,28 @@ function About() {
             </div>
           </div>
 
-
-
-            {/* My Life */}
+          {/* My Life */}
           <div className="flex justify-between flex-col md:flex-row mt-12">
-            <div className="md:w-4/5 md:ml-32 text-sm md:text-base lg:text-lg xl:text-xl mt-6 md:mt-0 ml-10 mr-10 md:mr-32 text-left">
-              <h1 className="text-5xl font-semibold">My Life</h1>
+            <div className="md:mt-10,mb-10 md:w-full md:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
+              <h1 className="md:text-5xl font-semibold text-2xl">My Life</h1>
               <p className="mt-4 md:mt-5">
-                I’ve always loved technology. From a young age, technology has
-                interested me. Most children play video games of some kind, from
-                tetris to spyro, crash bandicoot to final fantasy, I loved
-                playing with computers, but my interest didn’t stop just at
-                entertainment.
+                Since I was a child, I’ve always loved technology and loved
+                playing video games. My dream has always been to become a
+                programmer so that I can create my own games.
               </p>
               <p className="mt-4 md:mt-5">
-              The more I played, the more I wanted to understand how things worked. If something broke,
-               I would take it apart and figure out what had gone wrong, trying to get it back to normal.
+                I got my first computer when I was 10 years old, and since then,
+                I have been studying programming languages. My first programming
+                language is C.
               </p>
               <p className="mt-4 md:mt-5">
-              I remember taking apart my computer when I was 12, an event which horrified my parents.
+                I pursued a degree in computer engineering, and for my first
+                project, I developed an application for predicting skin diseases
+                using neural networks, React, and Flutter.
               </p>
             </div>
-            <div className="md:mr-8">
-              <img
-                className="rounded-3xl md:w-full md:mr-96 md:pr-28 mt-5 mr-10 ml-10"
-                src="https://www.datocms-assets.com/38195/1607120988-about-1.png?fm=webp"
-                alt=""
-              />
+            <div className="md:w-full flex justify-center items-center mr-10 ml-10 mt-5 mb-5">
+              <img className="" src={PicMylife} alt="" />
             </div>
           </div>
         </div>
