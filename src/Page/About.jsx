@@ -1,11 +1,14 @@
 import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 import PicMylife from "../assets/Pic.png";
+// import TextWriter from "../Components/TextWriter";
+import { TypeAnimation } from "react-type-animation";
+
 function About() {
   const textStyle = {
-    heading: 'Ubuntu, sans-serif',
-    sans: 'Cabin, sans-serif',
-    monospace: 'Fira Code, monospace',
+    heading: "Ubuntu, sans-serif",
+    sans: "Cabin, sans-serif",
+    monospace: "Fira Code, monospace",
   };
 
   return (
@@ -15,10 +18,18 @@ function About() {
       <div className="w-screen flex bg-gray-800 flex-col">
         <div
           className="md:mt-64 sm:mt-52 mt-40 text-white text-center"
-          style={{fontFamily:textStyle.monospace}}
+          style={{ fontFamily: textStyle.monospace }}
         >
-          <p className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4 sm:mb-10">
-            Hi there!
+          <p className="text-2xl sm:text-xl md:text-2xl lg:text-4xl font-bold mb-4 sm:mb-10">
+            {/* Hi there! */}
+            <TypeAnimation
+              sequence={["Hi there!", 1000]}
+              wrapper="span"
+              speed={20}
+              style={{ color: "white" }}
+              repeat={Infinity}
+              cursor={false}
+            />
           </p>
           <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black">
             I’m Thanin Pitakpoolsin
@@ -72,9 +83,9 @@ function About() {
                 using neural networks, React, and Flutter.
               </p>
               <p className="mt-4 md:mt-5">
-              And I never stop learning about new technologies in web development. to 
-              keep up with the rapidly changing lifestyles of people.
-
+                And I never stop learning about new technologies in web
+                development. to keep up with the rapidly changing lifestyles of
+                people.
               </p>
             </div>
             <div className="md:w-full flex justify-center items-center mr-10 ml-10 mt-5 mb-5">
@@ -84,7 +95,7 @@ function About() {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 }
