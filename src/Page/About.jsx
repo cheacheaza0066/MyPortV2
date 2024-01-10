@@ -22,7 +22,7 @@ function About() {
           </p>
 
           {/* About me */}
-          <div className="flex flex-col md:flex-row justify-between items-center mt-48">
+          <div className="flex flex-col md:flex-row justify-between items-center md:mt-64 mt-32">
             <div className="md:ml-8">
               <img
                 className="rounded-3xl md:w-full md:ml-24 w-96"
