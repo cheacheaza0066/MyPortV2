@@ -2,7 +2,9 @@ import Nav from "../Components/Nav";
 import PicMylife from "../assets/Pic.png";
 function About() {
   const textStyle = {
-    fontFamily: "Lemon, serif",
+    heading: 'Ubuntu, sans-serif',
+    sans: 'Cabin, sans-serif',
+    monospace: 'Fira Code, monospace',
   };
 
   return (
@@ -12,7 +14,7 @@ function About() {
       <div className="w-screen flex bg-gray-800 flex-col">
         <div
           className="md:mt-64 sm:mt-52 mt-40 text-white text-center"
-          style={textStyle}
+          style={{fontFamily:textStyle.monospace}}
         >
           <p className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4 sm:mb-10">
             Hi there!
@@ -51,7 +53,7 @@ function About() {
 
           {/* My Life */}
           <div className="flex justify-between flex-col md:flex-row mt-12">
-            <div className="md:mt-10,mb-10 md:w-full md:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
+            <div className="md:mt-10 md:mb-10 md:w-full md:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
               <h1 className="md:text-5xl font-semibold text-2xl">My Life</h1>
               <p className="mt-4 md:mt-5">
                 Since I was a child, I’ve always loved technology and loved
@@ -67,6 +69,11 @@ function About() {
                 I pursued a degree in computer engineering, and for my first
                 project, I developed an application for predicting skin diseases
                 using neural networks, React, and Flutter.
+              </p>
+              <p className="mt-4 md:mt-5">
+              And I never stop learning about new technologies in web development. to 
+              keep up with the rapidly changing lifestyles of people.
+
               </p>
             </div>
             <div className="md:w-full flex justify-center items-center mr-10 ml-10 mt-5 mb-5">
