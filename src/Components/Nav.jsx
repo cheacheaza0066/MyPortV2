@@ -24,13 +24,17 @@ function Nav() {
       <div className="md:flex items-center justify-between bg-gray-800 py-4 md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
-          <BookOpenIcon className="w-7 h-7 text-white" />
-          <span className="text-white">THANIN</span>
+        <img
+          className="w-14 m-5 rounded-full"
+          src="https://scontent.fbkk7-3.fna.fbcdn.net/v/t1.6435-9/168428269_3951792324882647_1929099210224564198_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGRMIMvqPQd1A1Ocb7i2lnxXKsLPX0HHs5cqws9fQceznCUqflFBqHyiyjcLqRMXXWrtWK-J5SC7z6_waY0B7Qi&_nc_ohc=ZDMAyX7A1ZYAX9wC3K1&_nc_ht=scontent.fbkk7-3.fna&oh=00_AfDR8gTmUKdtEuMNQOuMEOXD_zo6Gya6BeZjXZcT9OXBAg&oe=65C431E9"
+          alt=""
+        />
+          <span className="text-white text-xl">Thanin Pitakpooksin</span>
         </div>
         {/* Menu icon */}
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7"
+          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7 mt-7"
         >
           {open ? <XMarkIcon className="text-white"/> : <Bars3BottomRightIcon className="text-white"/>}
         </div>
