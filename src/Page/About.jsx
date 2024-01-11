@@ -63,10 +63,10 @@ function About() {
             </div>
           </div>
 
-          {/* My Life */}
+          {/* My Story*/}
           <div className="flex justify-between flex-col md:flex-row mt-12">
             <div className="md:mt-10 md:mb-10 md:w-full md:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
-              <h1 className="md:text-5xl font-semibold text-2xl">My Life</h1>
+              <h1 className="md:text-5xl font-semibold text-2xl">My Story</h1>
               <p className="mt-4 md:mt-5">
                 Since I was a child, I’ve always loved technology and loved
                 playing video games. My dream has always been to become a
@@ -90,6 +90,72 @@ function About() {
             </div>
             <div className="md:w-full flex justify-center items-center mr-10 ml-10 mt-5 mb-5">
               <img className="" src={PicMylife} alt="" />
+            </div>
+          </div>
+
+          {/* My Story 2*/}
+          <div className="flex justify-between flex-col md:flex-row mt-12 mb-10">
+            <div className="md:w-full flex justify-center items-center md:ml-0 md:mr-0 ml-10 mr-10 mt-5 mb-5">
+              <img
+                className=""
+                src="https://www.datocms-assets.com/38195/1607120991-about-2.png?fm=webp"
+                alt=""
+              />
+            </div>
+            <div className="md:mt-10 md:mb-10 md:w-full md:text-base text-sm  lg:text-lg xl:text-xl mt-3 md:ml-0 ml-10 mr-10 text-left">
+              <p className="mt-4 md:mt-5">
+                Since I was a child, I’ve always loved technology and loved
+                playing video games. My dream has always been to become a
+                programmer so that I can create my own games.
+              </p>
+              <p className="mt-4 md:mt-5">
+                I got my first computer when I was 10 years old, and since then,
+                I have been studying programming languages. My first programming
+                language is C.
+              </p>
+              <p className="mt-4 md:mt-5">
+                I pursued a degree in computer engineering, and for my first
+                project, I developed an application for predicting skin diseases
+                using neural networks, React, and Flutter.
+              </p>
+              <p className="mt-4 md:mt-5">
+                And I never stop learning about new technologies in web
+                development. to keep up with the rapidly changing lifestyles of
+                people.
+              </p>
+            </div>
+          </div>
+
+          {/* My Story 3*/}
+          <div className="flex justify-between flex-col md:flex-row mt-12">
+            <div className="md:mt-10 md:mb-10 md:w-full md:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
+              <p className="mt-4 md:mt-5">
+                Since I was a child, I’ve always loved technology and loved
+                playing video games. My dream has always been to become a
+                programmer so that I can create my own games.
+              </p>
+              <p className="mt-4 md:mt-5">
+                I got my first computer when I was 10 years old, and since then,
+                I have been studying programming languages. My first programming
+                language is C.
+              </p>
+              <p className="mt-4 md:mt-5">
+                I pursued a degree in computer engineering, and for my first
+                project, I developed an application for predicting skin diseases
+                using neural networks, React, and Flutter.
+              </p>
+              <p className="mt-4 md:mt-5">
+                And I never stop learning about new technologies in web
+                development. to keep up with the rapidly changing lifestyles of
+                people.
+              </p>
+            </div>
+            <div className="md:w-full flex justify-center items-center mr-10 ml-10 mt-5 mb-5">
+              <img
+                className=""
+                src="https://www.datocms-assets.com/38195/1607120999-tools.jpg?fm=webp"
+                alt=""
+              />
             </div>
           </div>
         </div>
