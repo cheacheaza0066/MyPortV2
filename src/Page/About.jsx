@@ -39,8 +39,8 @@ function About() {
           <div className="flex flex-col md:flex-row justify-between items-center md:mt-64 mt-32">
             <div className="md:ml-8">
               <img
-                className="rounded-3xl md:w-full md:ml-24 w-96"
-                src="https://scontent.fbkk7-3.fna.fbcdn.net/v/t1.6435-9/168428269_3951792324882647_1929099210224564198_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGRMIMvqPQd1A1Ocb7i2lnxXKsLPX0HHs5cqws9fQceznCUqflFBqHyiyjcLqRMXXWrtWK-J5SC7z6_waY0B7Qi&_nc_ohc=ZDMAyX7A1ZYAX9wC3K1&_nc_ht=scontent.fbkk7-3.fna&oh=00_AfDR8gTmUKdtEuMNQOuMEOXD_zo6Gya6BeZjXZcT9OXBAg&oe=65C431E9"
+              className="rounded-3xl md:w-full md:ml-24 w-96 object-fit: cover" /* Added object-fit */
+              src="https://scontent.fbkk7-3.fna.fbcdn.net/v/t1.6435-9/168428269_3951792324882647_1929099210224564198_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGRMIMvqPQd1A1Ocb7i2lnxXKsLPX0HHs5cqws9fQceznCUqflFBqHyiyjcLqRMXXWrtWK-J5SC7z6_waY0B7Qi&_nc_ohc=ZDMAyX7A1ZYAX9wC3K1&_nc_ht=scontent.fbkk7-3.fna&oh=00_AfDR8gTmUKdtEuMNQOuMEOXD_zo6Gya6BeZjXZcT9OXBAg&oe=65C431E9"
                 alt=""
               />
             </div>
@@ -94,10 +94,11 @@ function About() {
           </div>
 
           {/* My Story 2*/}
-          <div className="flex justify-between flex-col md:flex-row mt-12 mb-10">
-            <div className="md:w-full flex justify-center items-center md:ml-0 md:mr-0 ml-10 mr-10 mt-5 mb-5">
+          <div className="flex justify-between flex-col md:flex-row items-center mt-12 mb-10">
+
+          <div className="md:w-full flex justify-center items-center md:ml-0 md:mr-0 ml-10 mr-10 mt-5 mb-5">
               <img
-                className="md:w-96 md:ml-0 md:mr-0 w-80 ml-20"
+      className="md:w-96 md:ml-0 md:mr-0 w-96 ml-20 object-fit: cover"
                 src="https://www.datocms-assets.com/38195/1607120991-about-2.png?fm=webp"
                 alt=""
               />
@@ -152,7 +153,7 @@ function About() {
             </div>
             <div className="md:w-full flex justify-center items-center mr-10 ml-10 mt-5 mb-5">
               <img
-                className=""
+                className="object-fit: cover"
                 src="https://www.datocms-assets.com/38195/1607120999-tools.jpg?fm=webp"
                 alt=""
               />
