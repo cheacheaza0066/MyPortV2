@@ -64,7 +64,7 @@ function About() {
           </div>
 
           {/* My Story*/}
-          <div className="flex justify-between flex-col lg:flex-row mt-12">
+          <div className="flex justify-between flex-col-reverse lg:flex-row mt-12">
             <div className="lg:mt-10 lg:mb-10 lg:w-full lg:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
               <h1 className="lg:text-5xl font-semibold text-2xl">My Story</h1>
               <p className="mt-4 lg:mt-5">
@@ -127,7 +127,7 @@ function About() {
           </div>
 
           {/* My Story 3*/}
-          <div className="flex justify-between flex-col lg:flex-row mt-12">
+          <div className="flex justify-between flex-col-reverse lg:flex-row mt-12">
             <div className="lg:mt-10 lg:mb-10 lg:w-full lg:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
               <p className="mt-4 lg:mt-5">
                 Since I was a child, I’ve always loved technology and loved
