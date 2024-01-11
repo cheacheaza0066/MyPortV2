@@ -1,5 +1,4 @@
 import {
-  BookOpenIcon,
   Bars3BottomRightIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
