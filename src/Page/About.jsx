@@ -102,51 +102,41 @@ function About() {
             </div>
             <div className="md:mt-10 md:mb-10 md:w-full md:text-base text-sm  lg:text-lg xl:text-xl mt-3 md:ml-0 ml-10 mr-10 text-left">
               <p className="mt-4 md:mt-5">
-                Since I was a child, I’ve always loved technology and loved
-                playing video games. My dream has always been to become a
-                programmer so that I can create my own games.
+              I’ve worked in an automation engineer position as a dashboard developer.
+               I built a dashboard using the Ignition SCADA system, 
+               Python, and MySQL to develop a visually appealing interface.
               </p>
               <p className="mt-4 md:mt-5">
-                I got my first computer when I was 10 years old, and since then,
-                I have been studying programming languages. My first programming
-                language is C.
+              I have also learned more about website development.
+               I have studied the tools used in web development, 
+               specifically the MERN Stack, 
+               and applied them in a project.
               </p>
               <p className="mt-4 md:mt-5">
-                I pursued a degree in computer engineering, and for my first
-                project, I developed an application for predicting skin diseases
-                using neural networks, React, and Flutter.
+                <a className="text-red-500 font-bold" href="#" target="_blank" rel="noopener noreferrer">
+                  see more my Project &#8599;
+                </a>
               </p>
-              <p className="mt-4 md:mt-5">
-                And I never stop learning about new technologies in web
-                development. to keep up with the rapidly changing lifestyles of
-                people.
-              </p>
+             
             </div>
           </div>
 
           {/* My Story 3*/}
           <div className="flex justify-between flex-col-reverse md:flex-row mt-12">
             <div className="md:mt-10 md:mb-10 md:w-full md:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
+            <p className="mt-4 md:mt-5">
+            Currently, I am focus on creating projects that are 
+            easily to management, and secure to provide users with the best possible experience when using websites.           
+               </p>
               <p className="mt-4 md:mt-5">
-                Since I was a child, I’ve always loved technology and loved
-                playing video games. My dream has always been to become a
-                programmer so that I can create my own games.
-              </p>
+              These are the tools I used in the past projects, 
+              and I’am ready to learn new tools if they will help the project             
+               </p>
               <p className="mt-4 md:mt-5">
-                I got my first computer when I was 10 years old, and since then,
-                I have been studying programming languages. My first programming
-                language is C.
-              </p>
-              <p className="mt-4 md:mt-5">
-                I pursued a degree in computer engineering, and for my first
-                project, I developed an application for predicting skin diseases
-                using neural networks, React, and Flutter.
-              </p>
-              <p className="mt-4 md:mt-5">
-                And I never stop learning about new technologies in web
-                development. to keep up with the rapidly changing lifestyles of
-                people.
-              </p>
+              I hope to have the opportunity to work together.
+
+              Thank you.     
+               </p>
             </div>
             <div className="md:w-full flex justify-center items-center mr-10 ml-10 mt-5 mb-5">
               <img

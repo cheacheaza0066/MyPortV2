@@ -4,6 +4,8 @@ import { useState } from "react";
 function Nav() {
   let Links = [
     { name: "Homepage", link: "/" },
+    { name: "Project", link: "#" },
+
     { name: "My Resume", link: "https://drive.google.com/drive/folders/1l0SHR66QvsCEdzQyJaSB2GtdfUkNwnHr?usp=sharing" },
     { name: "My Github", link: "https://github.com/cheacheaza0066" },
 

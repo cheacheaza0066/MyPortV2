@@ -24,9 +24,14 @@ function Footer() {
           Thanin Pitakpoolsin
         </p>
         <p className="text-white mt-5 text-base md:text-xl ">
-          I create beautiful websites your users will love. I work with you from
+          {/* I create beautiful websites your users will love. I work with you from
           start to finish to make sure your goals are reached and your users are
-          happy.
+          happy. */}
+
+
+
+          I’m a web developer, I can create beautiful websites and your users will love it.
+          {/* I’m a web developer who creates beautiful websites your users will love. */}
         </p>
         <div className="text-white mt-5 mb-3 text-base md:text-xl">
           <h1
@@ -99,6 +104,14 @@ function Footer() {
             Homepage
           </a>
           <a
+            href="#"
+            className="mb-3 md:mb-5 md:text-xl text-base"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Project
+          </a>
+          <a
             href="https://drive.google.com/drive/folders/1l0SHR66QvsCEdzQyJaSB2GtdfUkNwnHr?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
@@ -114,6 +127,7 @@ function Footer() {
           >
             My Github
           </a>
+          
           {/* <a href="#"className="mb-3 md:mb-5 md:text-xl text-base">Service</a> */}
         </div>
       </div>
