@@ -132,7 +132,7 @@ function About() {
               These are the tools I used in the past projects, 
               and I’am ready to learn new tools if they will help the project             
                </p>
-              <p className="mt-4 md:mt-5">
+              <p className="mt-4 md:mt-5 ">
               I hope to have the opportunity to work together.
 
               Thank you.     

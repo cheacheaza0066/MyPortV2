@@ -22,7 +22,7 @@ function Nav() {
       className="w-full fixed top-0 left-0"
       style={{ fontFamily: textStyle.monospace }}
     >
-      <div className="md:flex items-center justify-between bg-gray-800 py-4 md:px-10 px-7">
+      <div className="md:flex items-center justify-between bg-gray-800 py-1 md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
           <img
