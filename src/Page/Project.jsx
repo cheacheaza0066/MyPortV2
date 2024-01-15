@@ -18,7 +18,7 @@ function Project() {
         <div className="flex flex-row justify-center align-middle mt-80">
           <p className="text-white text-4xl md:text-6xl lg:text-7xl font-semibold">
             <TypeAnimation
-              sequence={["Project Coming Soon", 1000]}
+              sequence={["Project", 1000]}
               wrapper="span"
               speed={20}
               style={{ color: "white" }}
