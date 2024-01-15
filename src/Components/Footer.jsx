@@ -102,7 +102,7 @@ function Footer() {
             Homepage
           </a>
           <a
-            href="#"
+            href="/project"
             className="mb-3 md:mb-5 md:text-xl text-base"
             target="_blank"
             rel="noopener noreferrer"
