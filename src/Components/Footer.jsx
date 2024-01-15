@@ -99,13 +99,12 @@ function Footer() {
             className="mb-3 md:mb-5 md:text-xl text-base"
             
           >
-            Homepage
+            About Me
           </a>
           <a
             href="/project"
             className="mb-3 md:mb-5 md:text-xl text-base"
-            target="_blank"
-            rel="noopener noreferrer"
+        
           >
             Project
           </a>

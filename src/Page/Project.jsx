@@ -1,4 +1,5 @@
 import Nav from "../Components/Nav";
+import { TypeAnimation } from "react-type-animation";
 
 function Project() {
   const textStyle = {
@@ -15,7 +16,14 @@ function Project() {
       >
         <div className="flex flex-row justify-center align-middle mt-80">
           <p className="text-white text-4xl md:text-6xl lg:text-7xl font-semibold">
-            Project
+          <TypeAnimation
+              sequence={["Project Coming Soon", 1000]}
+              wrapper="span"
+              speed={20}
+              style={{ color: "white" }}
+              repeat={Infinity}
+              cursor={false}
+            />
           </p>
         </div>
       </div>

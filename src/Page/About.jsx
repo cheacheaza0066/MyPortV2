@@ -122,7 +122,7 @@ function About() {
           </div>
 
           {/* My Story 3*/}
-          <div className="flex justify-between flex-col-reverse md:flex-row mt-12">
+          <div className="flex justify-between flex-col-reverse md:flex-row mt-12 mb-24">
             <div className="md:mt-10 md:mb-10 md:w-full md:ml-32 md:text-base text-sm  lg:text-lg xl:text-xl mt-3 ml-10 mr-10 text-left">
             <p className="mt-4 md:mt-5">
             Currently, I am focus on creating projects that are 
