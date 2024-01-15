@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 import { TypeAnimation } from "react-type-animation";
 
@@ -16,7 +17,7 @@ function Project() {
       >
         <div className="flex flex-row justify-center align-middle mt-80">
           <p className="text-white text-4xl md:text-6xl lg:text-7xl font-semibold">
-          <TypeAnimation
+            <TypeAnimation
               sequence={["Project Coming Soon", 1000]}
               wrapper="span"
               speed={20}
@@ -27,6 +28,7 @@ function Project() {
           </p>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
