@@ -88,13 +88,33 @@ function Footer() {
       </div>
       <div className="ml-10 mb-52 mt-10 md:mt-60 md:ml-32 lg:mb-52 w-full ">
         <div className=" text-white flex flex-col">
-          <p className="font-bold text-2xl mb-4 lg:mb-5 sm:text-base md:text-xl">Quick Links</p>
-          <a href="#"className="mb-3 md:mb-5 md:text-xl text-base">Homepage</a>
-          <a href="#"className="mb-3 md:mb-5 md:text-xl text-base">About</a>
-          <a href="#"className="mb-3 md:mb-5 md:text-xl text-base">Project</a>
-          <a href="#"className="mb-3 md:mb-5 md:text-xl text-base">Service</a>
-
-
+          <p className="font-bold text-2xl mb-4 lg:mb-5 sm:text-base md:text-xl">
+            Quick Links
+          </p>
+          <a
+            href="/"
+            className="mb-3 md:mb-5 md:text-xl text-base"
+            
+          >
+            Homepage
+          </a>
+          <a
+            href="https://drive.google.com/drive/folders/1l0SHR66QvsCEdzQyJaSB2GtdfUkNwnHr?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mb-3 md:mb-5 md:text-xl text-base"
+          >
+            My Resume
+          </a>
+          <a
+            href="https://github.com/cheacheaza0066"
+            className="mb-3 md:mb-5 md:text-xl text-base"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Github
+          </a>
+          {/* <a href="#"className="mb-3 md:mb-5 md:text-xl text-base">Service</a> */}
         </div>
       </div>
     </div>

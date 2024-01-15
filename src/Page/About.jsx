@@ -46,19 +46,16 @@ function About() {
             </div>
             <div className="text-sm md:text-base lg:text-lg xl:text-xl mt-6 md:mt-0 ml-10 mr-10 md:ml-36 md:mr-10 text-left">
               <p className="mt-4 md:mt-10">
-                I’m a user experience consultant working with teams around the
-                world to help create outstanding websites.
+              Hello, my name is Thanin Pitakpoolsin. I’m a web developer, 
+              and I can create the website you need and help you develop high quality websites.
               </p>
               <p className="mt-2 md:mt-5">
-                I’ve been a developer since I started my career 5 years ago, and
-                have always taken a deep interest in making websites the best
-                they can be for everyone using them.
+              I’ve been a developer since I graduated,
+              and I have an interest in creating websites to provide the best experience for everyone using them.
               </p>
               <p className="mt-2 md:mt-5">
-                Now I design and develop beautiful websites which focus on
-                providing the best experience for everyone using them, ensuring
-                they are easy for your team to edit while also delivering the
-                best experience for your users.
+              In the present, I focus on developing beautiful websites, 
+              aiming to provide the best experience for everyone and ensuring they are easy to use and manage
               </p>
             </div>
           </div>
