@@ -24,13 +24,11 @@ function Footer() {
           Thanin Pitakpoolsin
         </p>
         <p className="text-white mt-5 text-base md:text-xl ">
-          {/* I create beautiful websites your users will love. I work with you from
-          start to finish to make sure your goals are reached and your users are
-          happy. */}
 
 
 
-          I’m a web developer, I can create beautiful websites and your users will love it.
+          I’m a web developer, I can create beautiful websites, 
+          ensure your goals are reached, and make sure your users will love it.
           {/* I’m a web developer who creates beautiful websites your users will love. */}
         </p>
         <div className="text-white mt-5 mb-3 text-base md:text-xl">
