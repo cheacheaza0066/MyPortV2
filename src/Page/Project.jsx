@@ -15,7 +15,7 @@ function Project() {
         className="flex flex-col w-full bg-gray-800 h-screen"
         style={{ fontFamily: textStyle.monospace }}
       >
-        <div className="flex flex-row justify-center align-middle mt-80">
+        <div className="flex flex-col items-center justify-center w-full mt-72">
           <p className="text-white text-4xl md:text-6xl lg:text-7xl font-semibold">
             <TypeAnimation
               sequence={["Project", 1000]}
@@ -26,9 +26,12 @@ function Project() {
               cursor={false}
             />
           </p>
+          <p className="mt-7 text-white text-base md:text-xl lg:text-2xl font-medium">
+            Here’s the project I developed.
+            </p>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
