@@ -16,7 +16,7 @@ function Project() {
         style={{ fontFamily: textStyle.monospace }}
       >
         <div className="flex flex-col items-center justify-center w-full mt-72">
-          <p className="text-white text-4xl md:text-6xl lg:text-7xl font-semibold">
+          <p className="text-white text-4xl md:text-6xl lg:text-7xl font-bold">
             <TypeAnimation
               sequence={["Project", 1000]}
               wrapper="span"
