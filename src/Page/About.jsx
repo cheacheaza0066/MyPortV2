@@ -113,7 +113,7 @@ function About() {
                and applied them in a project.
               </p>
               <p className="mt-4 md:mt-5">
-                <a className="text-red-500 font-bold hover:underline" href="/project" target="_blank" rel="noopener noreferrer">
+                <a className="text-red-500 font-bold hover:underline" href="/project">
                   see more my Project &#8599;
                 </a>
               </p>
