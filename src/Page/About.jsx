@@ -146,6 +146,12 @@ function About() {
               />
             </div>
           </div>
+
+          {/* <div className="flex justify-center items-center bg-black w-full h-96">
+            <h1 className="">I This Website  Build With React And Tailwind Css</h1>
+          </div> */}
+
+
         </div>
       </div>
 
